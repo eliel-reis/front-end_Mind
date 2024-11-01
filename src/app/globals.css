@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.links {
+  border: 2px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition-duration: 1s;
+}
+
+.links:hover {
+  background-color: white;
+  color: #3b82f5;
+  transition-duration: 1s;
+}
+
+.thead tr th {
+  border: 2px solid black;
+}
+
+.tbody tr td {
+  border: 1px solid rgba(0, 0, 0, 0.548);
+  padding-left: 10px;
+  padding-right: 10px;
+}

@@ -68,7 +68,7 @@ export default function Editar_Produtos() {
           className="inputs"
           type="text"
           name="imagem"
-          placeholder="Link da imagem..."
+          placeholder="URL completa da imagem..."
           value={imagem}
           onChange={(e) => set_imagem(e.target.value)}
           required

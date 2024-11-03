@@ -69,7 +69,7 @@ export default function Registrar_Produtos() {
           type="text"
           name="imagem"
           value={imagem}
-          placeholder="Link da imagem..."
+          placeholder="URL completa da imagem..."
           onChange={(e) => set_imagem(e.target.value)}
           required
         />

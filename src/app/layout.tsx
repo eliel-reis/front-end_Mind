@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import Topo from "../components/Topo";
+import Topo from "../components/Topo/index";
 
 export const metadata: Metadata = {
   title: "Create Next App",
